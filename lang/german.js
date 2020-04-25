@@ -35,24 +35,24 @@ var PermissionNo = EmojiRedTickString;
 //---- ALL EMOJIS ------
 const lang = {
 	//exemple: "exemple_text"
-	Something_Done: `${EmojiGreenTickString} Done`,
-	Permission_Manage_Server_Required: `(**MANAGE_SERVER** is required)`,
+	Something_Done: `${EmojiGreenTickString} Fertig`,
+	Permission_Manage_Server_Required: `(**MANAGE_SERVER** ist benötigt)`,
 
 	//Database_Error: ``,
-	Command_Args_Missing: `${EmojiRedTickString} Some arguments are missing !`,
+	Command_Args_Missing: `${EmojiRedTickString} Es fehlen Argumente !`,
 
-	Command_User_Not_Allowed: `${EmojiRedTickString} You are not allowed to use that command !`,
-	Command_User_Message_Is_Empty: `${EmojiRedTickString} Your message is empty`,
-	Command_User_Need_Permission_Manage_Messages: `${EmojiRedTickString} You need the permission **(MANAGE_MESSAGES)** to do that`,
+	Command_User_Not_Allowed: `${EmojiRedTickString} Du darfst diesen Befehl nicht nutzen !`,
+	Command_User_Message_Is_Empty: `${EmojiRedTickString} Deine Nachricht ist leer`,
+	Command_User_Need_Permission_Manage_Messages: `${EmojiRedTickString} Du brauchst die Berechtigung, **(MANAGE_MESSAGES)** um diesen Befehl zu nutzen`,
 
-	Command_Github_Project: `My GitHub project`,
-	Command_Bot_My_Ping: `My ping is`,
-	Command_Bot_Need_Permission_Manage_Messages: `${EmojiProhibitedString} Sadly, I haven't the **(MANAGE_MESSAGES)** permission`,
+	Command_Github_Project: `Mein GitHub Projekt`,
+	Command_Bot_My_Ping: `Mein Ping ist`,
+	Command_Bot_Need_Permission_Manage_Messages: `${EmojiProhibitedString} Leider habe ich das Recht **(MANAGE_MESSAGES)** nicht`,
 
-	Command_Purge_No_Number: `You didn't put the number of message you want to clear`,
-	Command_Purge_Not_Number: `${EmojiRedTickString} \`{0}\` isn't a number.`,
-	Command_Purge_Need_Number: `${EmojiRedTickString} Please put a number of message to purge`,
-	Command_Purge_Max_100_Message_Delete: `${EmojiRedTickString} Sadly, the bot can only delete 100 messages at a time`,
+	Command_Purge_No_Number: `Du hast nicht die Anzahl der Nachrichten angegeben, die du löschen möchtest`,
+	Command_Purge_Not_Number: `${EmojiRedTickString} \`{0}\` ist keine Nummer.`,
+	Command_Purge_Need_Number: `${EmojiRedTickString} Bitte gebe die Anzahl der Nachrichten an, die du löschen möchtest`,
+	Command_Purge_Max_100_Message_Delete: `${EmojiRedTickString} Der Bot kann nur 100 Nachrichten auf einmal löschen`,
 
 	Command_Purge_X_Messages: `Deleting \`{0}\` message(s) :cloud_tornado: :cloud_tornado: :cloud_tornado:`, //don't change emoji plz
 	Command_Purged_X_Messages: `That's it, I deleted a total of \`{0}\` / \`{1}\` messages`,
@@ -72,7 +72,7 @@ const lang = {
 	Command_Random_Member_User_Chosen: `{0} has been chosen between the {1} members of the server !`,
 
 	Command_Poll_No_Question_Or_Answer: `${EmojiRedTickString} Sorry, you didn't put any question/answer1/answer2 in your poll.\n(just follow this exemple: \`{0}poll Question | Answer1 | Answer2\`)`,
-	Command_Poll_By: `Poll by`,
+	Command_Poll_By: `Umfrage von`,
 
 	Command_Rekt_Nobody_To_Rekt: `${EmojiRedTickString} There is nobody to rekt (@ a user to rekt him)`,
 	Command_Rekt_Cant_Rekt_Yourself: `${EmojiRedTickString} You can't rekt yourself`,
@@ -96,9 +96,9 @@ const lang = {
 
 	Command_Welcome_Error_On_Setting_Welcome_Message: `Something went wrong when setting the welcome_message:`,
 
-	Command_Welcome_Welcome_Channel: `Welcome channel: {0} \n`,
-	Command_Welcome_Welcome_Message: `Welcome message: {0} \n`,
-	Command_Welcome_Welcome_Status: `Welcome is activated: {0} \n`,
+	Command_Welcome_Welcome_Channel: `Willkommens Channel: {0} \n`,
+	Command_Welcome_Welcome_Message: `Willkommens Nachricht: {0} \n`,
+	Command_Welcome_Welcome_Status: `Willkommen ist aktiviert: {0} \n`,
 
 	Command_Welcome_Help_Line1: `To configure the welcomer you need to do theres steps:\n\n`,
 	Command_Welcome_Help_Line2: `:one: Enable the welcomer via the command: \`{0}welcome on\`\n`,
@@ -108,8 +108,8 @@ const lang = {
 
 	Command_Welcome_User_Their_Args: `Use their following arguments:`,
 
-	Command_Staff_No_Message: `${EmojiRedTickString} There is no text in your message.`,
-	Command_Staff_Sended_Message: `${EmojiGreenTickString} Your message has been sent to my creators :wink:`,
+	Command_Staff_No_Message: `${EmojiRedTickString} Es ist kein Text in deiner Nachricht.`,
+	Command_Staff_Sended_Message: `${EmojiGreenTickString} Deine Nachricht wurde an meine Ersteller gesendet :wink:`,
 	//#region SQL_Database
 	//#endregion
 
@@ -118,7 +118,7 @@ const lang = {
 	//When the bot join a new discord server
 	guild_joining1: `Hey! I'm **Boti-Panda**\n`,
 	guild_joining2: `You can use {0} to see my commands.`,
-	guild_joining4: `Here is my discord server`,
+	guild_joining4: `Hier ist mein Discord Server`,
 	guild_joining5: `Don't hesitate to join it in order to get the most recent informations about the bot`,
 	//#endregion
 
@@ -157,54 +157,54 @@ const lang = {
 	Music_Skip_Not_In_Vocal: `${EmojiRedTickString} You should be in a vocal channel before asking me to skip some musics.`,
 	Music_Skip_No_Music_Found: `${EmojiRedTickString} I didn't found any other music.`,
 	Music_Skip_Success: `${EmojiGreenTickString} Successfuly skipped the song: `,
-	Music_Requested_By: `requested by`,
-	Music_Now_Playing: `Now playing`,
-	Music_Stopped_From: `${EmojiGreenTickString} Stopped all the music from channel`,
+	Music_Requested_By: `angefragt bei`,
+	Music_Now_Playing: `Spiele jetzt`,
+	Music_Stopped_From: `${EmojiGreenTickString} Pausiere alle Musik von dem Channel`,
 
 	Music_Currently_Queue_Empty: `${EmojiRedTickString} The queue is actually empty.`,
 	Music_Queue_List: `Queue list`,
 	Music_Here_Queue_List: `Here is your queue list`,
 	Music_Queue_List_Requested_By: `Queue list requested by`,
 
-	Music_And: `And`,
-	Music_More: `more...`,
+	Music_And: `Und`,
+	Music_More: `mehr...`,
 	Music_End_Of_Text: `It's the end of the text`,
 
 	Music_Song_Will_Not_Repeated: `won't be repeated`,
 	Music_Song_Will_Be_Repeated: `will be repeated`,
 
 	Music_Status_Status: `Status`,
-	Music_Status_No_Music: `${EmojiRedTickString} There's no music`,
+	Music_Status_No_Music: `${EmojiRedTickString} Es gibt keine Musik`,
 
-	Music_Status_Yes: `Yes`,
-	Music_Status_No: `No`,
+	Music_Status_Yes: `Ja`,
+	Music_Status_No: `Nein`,
 
 	Music_Status_Current_Status: `The current status of the song`,
 	Music_Status_Current_Song: `The Current song`,
 
-	Music_Status_Track_Loop: `Is the track looped ?`,
-	Music_Status_Track_Paused: `Is the track paused ?`,
-	Music_Status_Uploaded_By: `Uploaded by`,
-	Music_Status_Song_Duration: `Song duration`,
-	Music_Status_Time_Remaining: `Time remaining`,
-	Music_Status_Views: `Views`,
+	Music_Status_Track_Loop: `Ist der Song in der Endlosschleife ?`,
+	Music_Status_Track_Paused: `Ist der Song pausiert ?`,
+	Music_Status_Uploaded_By: `Hochgeladen von`,
+	Music_Status_Song_Duration: `Song Länge`,
+	Music_Status_Time_Remaining: `Zeit verbliebend`,
+	Music_Status_Views: `Aufrufe`,
 	Music_Status_Link: `Link`,
-	Music_Status_Requested_By: `Status requested by`,
+	Music_Status_Requested_By: `Status angefragt von`,
 	//#endregion
 
 	//#region autorole
-	Command_Autorole_Activated: `${EmojiGreenTickString} The autorole is activated.`,
-	Command_Autorole_Now_Activated: `${EmojiGreenTickString} The autorole is now activated.`,
-	Command_Autorole_Already_Activated: `${EmojiRedTickString} The autorole is already enabled.`,
+	Command_Autorole_Activated: `${EmojiGreenTickString} Die Autorolle ist aktiviert.`,
+	Command_Autorole_Now_Activated: `${EmojiGreenTickString} Die Autorolle ist jetzt aktiviert.`,
+	Command_Autorole_Already_Activated: `${EmojiRedTickString} Die Autorolle ist bereits schon aktivert.`,
 
-	Command_Autorole_Deactivated: `${EmojiGreenTickString} The autorole is deactivated.`,
-	Command_Autorole_Now_Deactivated: `${EmojiGreenTickString} The autorole is now deactivated.`,
-	Command_Autorole_Already_Deactivated: `${EmojiRedTickString} The autorole is already deactivated.`,
+	Command_Autorole_Deactivated: `${EmojiGreenTickString} Die Autorolle ist deaktiviert.`,
+	Command_Autorole_Now_Deactivated: `${EmojiGreenTickString} Die Autorolle ist jetzt deaktiviert.`,
+	Command_Autorole_Already_Deactivated: `${EmojiRedTickString} Die Autorolle ist bereits schon deaktiviert.`,
 
-	Command_Autorole_Is_Now_Defined_As: `${EmojiGreenTickString} The autorole is now for the role: {0}`,
+	Command_Autorole_Is_Now_Defined_As: `${EmojiGreenTickString} Die Autorolle ist jetzt: {0}`,
 
-	Command_AutoRole_Not_Found_Role: `${EmojiRedTickString} The role \`{0}\` seems to not exist`,
-	Command_AutoRole_Not_Defined: `${EmojiRedTickString} Role not defined`,
+	Command_AutoRole_Not_Found_Role: `${EmojiRedTickString} Die Rolle \`{0}\` ist nicht vorhanden.`,
+	Command_AutoRole_Not_Defined: `${EmojiRedTickString} Die Rolle wurde nicht festgelegt`,
 
 	//Embed
 	Command_AutoRole_Embed_Description1: `To use the \`auto-role\` command here is some tips:\n`,
