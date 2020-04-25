@@ -54,21 +54,21 @@ const lang = {
 	Command_Purge_Need_Number: `${EmojiRedTickString} Bitte gebe die Anzahl der Nachrichten an, die du löschen möchtest`,
 	Command_Purge_Max_100_Message_Delete: `${EmojiRedTickString} Der Bot kann nur 100 Nachrichten auf einmal löschen`,
 
-	Command_Purge_X_Messages: `Deleting \`{0}\` message(s) :cloud_tornado: :cloud_tornado: :cloud_tornado:`, //don't change emoji plz
-	Command_Purged_X_Messages: `That's it, I deleted a total of \`{0}\` / \`{1}\` messages`,
-	Command_Purge_Deleted_X_Messages: `Deleted \`{0}\` message(s) ! :cloud_tornado: :cloud_tornado: :cloud_tornado: `,
+	Command_Purge_X_Messages: `Lösche \`{0}\` Nachricht(en) :cloud_tornado: :cloud_tornado: :cloud_tornado:`, //don't change emoji plz
+	Command_Purged_X_Messages: `Ich habe \`{0}\` / \`{1}\` Nachrichten gelöscht`,
+	Command_Purge_Deleted_X_Messages: `Gelöscht \`{0}\` Nachricht(en) ! :cloud_tornado: :cloud_tornado: :cloud_tornado: `,
 
 
-	Command_Random_Number_No_First_Number: `You need to add a number (first should be the minimum)`,
-	Command_Random_Number_No_Second_Number: `You need to add a number (second should be the maximum)`,
+	Command_Random_Number_No_First_Number: `Du musst eine Nummer hinzufügen (zuerst sollte das Minimum sein)`,
+	Command_Random_Number_No_Second_Number: `Du musst eine Nummer hinzufügen (danach sollte das Maximum sein)`,
 
-	Command_Random_Number_No_Number: `Please, write a minimum and maximum value to generate a random number`,
+	Command_Random_Number_No_Number: `Bitte schreibe einen minimalen und maximalen Wert, um eine Zufallszahl zu generieren`,
 	Command_Random_Number_No_Minimum_Value: `Please, write a minimum value to generate a random number`,
 	Command_Random_Number_No_Maximum_Value: `Please, write a maximum value to generate a random number`,
 	Command_Random_Number_Result: `Hmmm let me think, ..., between **{0}** and **{1}** I would choose **{2}** !`,
 
 
-	Command_Random_Member_By: `Random-Member by`, //Don't translate Random-Member
+	Command_Random_Member_By: `Random-Member von`, //Don't translate Random-Member
 	Command_Random_Member_User_Chosen: `{0} has been chosen between the {1} members of the server !`,
 
 	Command_Poll_No_Question_Or_Answer: `${EmojiRedTickString} Sorry, you didn't put any question/answer1/answer2 in your poll.\n(just follow this exemple: \`{0}poll Question | Answer1 | Answer2\`)`,
@@ -116,21 +116,21 @@ const lang = {
 	//#region Guild Joining
 
 	//When the bot join a new discord server
-	guild_joining1: `Hey! I'm **Boti-Panda**\n`,
-	guild_joining2: `You can use {0} to see my commands.`,
+	guild_joining1: `Hi! Ich heiße **Boti-Panda**\n`,
+	guild_joining2: `Du kannst nutzen {0} um meine Funktionen zu sehen.`,
 	guild_joining4: `Hier ist mein Discord Server`,
 	guild_joining5: `Don't hesitate to join it in order to get the most recent informations about the bot`,
 	//#endregion
 
 	//#region Lang
-	Lang_Changing_To_Default: `Currently changing the lang to default (english)...`,
+	Lang_Changing_To_Default: `Verändere die Sprache zur der normalen (Englisch)...`,
 
-	Lang_Defined_To_English: `${EmojiGreenTickString} language defined to English`,
-	Lang_Defined_To_French: `${EmojiGreenTickString} language defined to French`,
-	Lang_Defined_To_Russian: `${EmojiGreenTickString} language defined to Russian`,
-	Lang_Defined_To_Spanish: `${EmojiGreenTickString} language defined to Spanish`, //Espagnol
-	Lang_Defined_To_Italian: `${EmojiGreenTickString} language defined to Italian`,
-	Lang_Defined_To_Deutsch: `${EmojiGreenTickString} language defined to Deutsch`, //Allemand
+	Lang_Defined_To_English: `${EmojiGreenTickString} Sprache geändert zu Englisch`,
+	Lang_Defined_To_French: `${EmojiGreenTickString} Sprache geändert zu Französisch`,
+	Lang_Defined_To_Russian: `${EmojiGreenTickString} Sprache geändert zu Russisch`,
+	Lang_Defined_To_Spanish: `${EmojiGreenTickString} Sprache geändert zu Spanisch`, //Espagnol
+	Lang_Defined_To_Italian: `${EmojiGreenTickString} Sprache geändert zu Italienisch `,
+	Lang_Defined_To_Deutsch: `${EmojiGreenTickString} Sprache geändert zu Deutsch`, //Allemand
 
 	Lang_Didnt_Find_Lang: `${EmojiRedTickString} It seems that \`{0}\` isn't existing in my translated language database.`,
 
