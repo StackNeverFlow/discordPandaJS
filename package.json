@@ -4,7 +4,9 @@
   "version": "2.1.2",
   "main": "discordPanda.js",
   "scripts": {
-    "start": "node discordPanda.js"
+    "start": "node discordPanda.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "dblapi.js": "2.2.0",
@@ -24,6 +26,8 @@
     "ultron": "1.1.1",
     "url": "0.11.0",
     "ws": "6.1.0",
-    "ytdl-core": "0.26.1"
-  }
+    "ytdl-core": "0.26.1",
+    "snyk": "^1.360.0"
+  },
+  "snyk": true
 }
